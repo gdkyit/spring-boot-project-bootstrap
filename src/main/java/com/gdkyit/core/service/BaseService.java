@@ -18,4 +18,5 @@ public class BaseService {
     public List<Map<String, Object>> getDblist() {
         return basedao.getDblist();
     }
+
 }

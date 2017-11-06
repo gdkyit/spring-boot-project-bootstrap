@@ -64,6 +64,12 @@ public class Result {
                 .setCode(ResultCode.INTERNAL_SERVER_ERROR)
                 .setMessage(message);
     }
+    public Result genResult(ResultCode resultCode, String message, Object data){
+        return new Result()
+                .setCode(resultCode.code)
+                .setMessage(message)
+                .setData(data);
+    }
 
     @Override
     public String toString() {
