@@ -22,3 +22,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+#project files
+application-dev.properties
+application-prod.properties
